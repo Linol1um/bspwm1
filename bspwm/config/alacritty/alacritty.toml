@@ -1,0 +1,29 @@
+[general]
+import = ["~/.config/alacritty/themes/custom.toml"]
+
+[colors]
+draw_bold_text_with_bright_colors = true
+
+[cursor]
+unfocused_hollow = false
+
+[cursor.style]
+blinking = "Always"
+
+
+[scrolling]
+history = 100000
+multiplier = 6
+
+[selection]
+save_to_clipboard = true
+semantic_escape_chars = ",│`|:\"' ()[]{}<>\t"
+
+[window]
+dynamic_title = true
+opacity = 1
+title = "Alacritty"
+
+[window.class]
+general = "Alacritty"
+instance = "Alacritty"
